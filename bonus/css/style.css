@@ -1,22 +1,15 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-section {
-  position: relative;
-  height: 100vh;
-  width: 100%;
-  background-color: red;
-}
-
-.container {
-  position: absolute;
-  height: 50%;
-  width: 30%;
-  border: 1px solid black;
-  text-align: center;
+body {
+  font-family: 'Rubik Mono One', sans-serif;
 }
 
 .centering {
@@ -25,10 +18,58 @@ section {
   transform: translate(-50%,-50%);
 }
 
+nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+nav .number {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+  width: 30px;
+  height: 30px;
+  font-size: 10px;
+  border-radius: 15px;
+  background-color: lightgrey;
+}
+.number a {
+  position: absolute;
+  color: black;
+  text-decoration: none;
+}
+
+section {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+#victoria {
+  background-color: red;
+  color: yellow;
+}
+#tommy {
+  background-color: green;
+  color: yellow;
+}
+#allstar {
+  background-color: yellow;
+  color: green;
+}
+
+.container {
+  position: absolute;
+  height: 50%;
+  width: 30%;
+  text-align: center;
+}
+
 img {
   height: 80%;
 }
 
 .text {
   height: 20%;
+  font-size: 1.5em;
 }
