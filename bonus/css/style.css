@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+  background-color: red;
+}
+
+.container {
+  height: 50%;
+  width: 50%;
+  border: 1px solid black;
+}
+
+img {
+  object-fit: contain;
+}
