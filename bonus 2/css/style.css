@@ -8,10 +8,6 @@ html {
   box-sizing: content-box;
 }
 
-body {
-
-}
-
 .container {
   position: fixed;
   width: 100vw;
